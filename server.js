@@ -14,12 +14,12 @@ var connection = mysql.createConnection({
     database: "employee_db"
   });
   
-  
-  connection.connect(function(err) {
+    // connect to the mysql server and sql database
+    connection.connect(function(err) {
     if (err) throw err;
     start();
   });
-
+   // Function to add departments to the department table
   function start() {
     inquirer
       .prompt({
