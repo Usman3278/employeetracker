@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abbyblachman/node-mysql-employee-tracker.git"
+    "url": "https://github.com/Usman3278/employeetracker"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/abbyblachman/node-mysql-employee-tracker/issues"
+    "url": "https://github.com/Usman3278/employeetracker"
   },
-  "homepage": "https://github.com/abbyblachman/node-mysql-employee-tracker#readme",
+  "homepage": "https://usman3278.github.io/employeetracker/",
   "dependencies": {
     "express": "^4.17.1",
     "inquirer": "^7.0.0",

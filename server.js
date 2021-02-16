@@ -138,7 +138,7 @@ function addRole() {
               }
           }
           ]) 
-// in order to get the id here grab it from the departments table 
+
         .then(function(answer) {
         const department = answer.departmentName;
         connection.query('SELECT * FROM DEPARTMENT', function(err, res) {
