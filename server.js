@@ -13,7 +13,7 @@ var connection = mysql.createConnection({
     password: "password",
     database: "employee_db"
   });
-
+  
   
   connection.connect(function(err) {
     if (err) throw err;
