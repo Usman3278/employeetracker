@@ -5,21 +5,21 @@ var connection = mysql.createConnection({
     multipleStatements: true, 
     host: "localhost",
   
-    // port
+    //port
     port: 3306,
     user: "root",
   
-    // password
+    //password
     password: "password",
     database: "employee_db"
   });
   
-    // connect to the mysql server and sql database
+    //connect to the mysql server and sql database
     connection.connect(function(err) {
     if (err) throw err;
     start();
   });
-   // Function to add departments to the department table
+   //Function to add departments to the department table
   function start() {
     inquirer
       .prompt({
